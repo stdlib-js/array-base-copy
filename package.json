@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-copy",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Copy the elements of an array-like object to a new generic array.",
   "license": "Apache-2.0",
   "author": {
