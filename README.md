@@ -34,32 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-copy
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-copy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.copy;
-})()
-</script>
+var copy = require( '@stdlib/array-base-copy' );
 ```
 
 #### copy( x )
@@ -96,16 +94,11 @@ var bool = ( out === x );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-realf@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-imagf@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Complex64Array = require( '@stdlib/array-complex64' );
+var realf = require( '@stdlib/complex-realf' );
+var imagf = require( '@stdlib/complex-imagf' );
+var copy = require( '@stdlib/array-base-copy' );
 
 // Create a complex number array:
 var arr = new Complex64Array( 10 );
@@ -125,11 +118,6 @@ var im = imagf( z );
 
 console.log( '%d + %di', re, im );
 // => '0 + 0i'
-
-})()
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -217,6 +205,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/array-base-copy/tree/deno
 [umd-url]: https://github.com/stdlib-js/array-base-copy/tree/umd
 [esm-url]: https://github.com/stdlib-js/array-base-copy/tree/esm
+[branches-url]: https://github.com/stdlib-js/array-base-copy/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-copy/main/LICENSE
 
