@@ -68,7 +68,7 @@ Copies the elements of an array-like object to a new "generic" array.
 var x = [ 1, 2, 3 ];
 
 var out = copy( x );
-// returns [ 1, 2, 3  ]
+// returns [ 1, 2, 3 ]
 
 var bool = ( out === x );
 // returns false
@@ -193,7 +193,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
