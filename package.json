@@ -41,7 +41,8 @@
     "@stdlib/array-base-assert-is-accessor-array": "^0.1.0",
     "@stdlib/array-base-getter": "^0.1.0",
     "@stdlib/array-dtype": "^0.1.0",
-    "@stdlib/types": "^0.1.0"
+    "@stdlib/types": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-base-ones": "^0.1.0",
