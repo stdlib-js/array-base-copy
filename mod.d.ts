@@ -16,27 +16,27 @@
 * limitations under the License.
 */
 
-import copy = require( './index' );
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Collection } from '@stdlib/types/array';
+
+/**
+* Copies the elements of an array-like object to a new "generic" array.
+*
+* @param x - input array
+* @returns output array
+*
+* @example
+* var x = [ 1, 2, 3 ];
+*
+* var out = copy( x );
+* // returns [ 1, 2, 3 ]
+*/
+declare function copy<T = unknown>( x: Collection<T> ): Array<T>;
 
 
-// TESTS //
+// EXPORTS //
 
-// The function returns an array...
-{
-	copy( [ 1, 2, 3 ] ); // $ExpectType number[]
-}
-
-// The compiler throws an error if the function is provided an argument which is not a collection...
-{
-	copy( 5 ); // $ExpectError
-	copy( true ); // $ExpectError
-	copy( false ); // $ExpectError
-	copy( null ); // $ExpectError
-	copy( {} ); // $ExpectError
-}
-
-// The compiler throws an error if the function is provided an unsupported number of arguments...
-{
-	copy(); // $ExpectError
-	copy( [ 1, 2, 3 ], 2 ); // $ExpectError
-}
+export = copy;
