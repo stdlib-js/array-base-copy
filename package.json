@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/array-base-resolve-getter": "github:stdlib-js/array-base-resolve-getter#main",
-    "@stdlib/types": "^0.2.0"
+    "@stdlib/types": "^0.2.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-base-ones": "^0.1.0",
