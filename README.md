@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy@deno/mod.js';
+import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy@v0.2.0-deno/mod.js';
 ```
 
 #### copy( x )
@@ -93,7 +93,7 @@ var bool = ( out === x );
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
 import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-realf@deno/mod.js';
 import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imagf@deno/mod.js';
-import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy@deno/mod.js';
+import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy@v0.2.0-deno/mod.js';
 
 // Create a complex number array:
 var arr = new Complex64Array( 10 );
