@@ -37,12 +37,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-resolve-getter": "^0.2.1",
+    "@stdlib/array-base-resolve-getter": "^0.2.2",
     "@stdlib/types": "^0.3.2"
   },
   "devDependencies": {
     "@stdlib/array-base-ones": "^0.2.2",
-    "@stdlib/array-complex64": "^0.2.1",
+    "@stdlib/array-complex64": "^0.3.0",
     "@stdlib/assert-is-array": "^0.2.2",
     "@stdlib/assert-is-complex64": "^0.2.2",
     "@stdlib/complex-float32-imag": "^0.1.1",
