@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-30)
+## Unreleased (2025-12-05)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`53365b8`](https://github.com/stdlib-js/stdlib/commit/53365b8c311a4ea4bdc1b886fe890ad7bfc61d1c) - **bench:** refactor to use string interpolation in `array/base/copy` [(#8821)](https://github.com/stdlib-js/stdlib/pull/8821) _(by Aman Singh)_
 -   [`b66cf8e`](https://github.com/stdlib-js/stdlib/commit/b66cf8efdf5b793040fce1236fa3adcdcd5067a7) - **docs:** update examples _(by Athan Reines)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Aman Singh
 -   Athan Reines
 
 </section>
