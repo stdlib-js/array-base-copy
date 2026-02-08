@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-copy/tags). For example,
+
+```javascript
 import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy@v0.2.3-deno/mod.js';
 ```
 
@@ -91,7 +96,7 @@ var bool = ( out === x );
 
 ```javascript
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
-import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy@v0.2.3-deno/mod.js';
+import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-copy@deno/mod.js';
 
 // Create a complex number array:
 var arr = new Complex64Array( 10 );
